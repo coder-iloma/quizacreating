@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Quiz</title>
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+	<h1><marquee behavior="alternate" direction="up" width="80%"><marquee direction="right">QUIZ IT UP!</marquee></marquee></h1>
+
+	<ul><li>Press start button to begin the quiz.</li></ul>
+
+	<div id="startbutton"><button type="button" onclick="show();">START</button></div>
+
+	<div id="q1">Q1.You should save your computer from<br/>
+	    <input type="radio" name="radio" id="viruses">viruses
+	    <input type="radio" name="radio" id="time bombs">time bombs<br/>
+	    <input type="radio" name="radio" id="worms">worms
+	    <input type="radio" name="radio" id="all of these">all of these<br/>
+	</div><br/>
+
+	<div>
+	<div id="submitbutton"><button onclick="submit();">SUBMIT</button></div>
+
+	<div id="result">The answer will show up here.</div>
+</body>
+</html>
